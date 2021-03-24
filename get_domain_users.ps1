@@ -39,4 +39,13 @@ $Searcher.SearchRoot = $objDomain
 
 $Searcher.filter = "samAccountType=805306368"
 
-$Searcher.FindAll()
+<# FANCY #>
+
+Foreach($obj in $Result)
+{
+	Foreach($prop in $obj.Properties)
+	{
+		$prop
+	}
+	Write-Host +________________________"
+}
