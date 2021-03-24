@@ -39,6 +39,8 @@ $Searcher.SearchRoot = $objDomain
 
 $Searcher.filter = "samAccountType=805306368"
 
+$Result = $Searcher.FindAll()
+
 <# FANCY #>
 
 Foreach($obj in $Result)
