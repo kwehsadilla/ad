@@ -49,5 +49,5 @@ Foreach($obj in $Result)
 	{
 		$prop
 	}
-	Write-Host +________________________"
+	Write-Host "________________________"
 }
