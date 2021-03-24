@@ -1,3 +1,5 @@
+<# extra comment #>
+
 <# Overview
 this script will query the network for the name of the
 primary domain controller emulater and the domain, search AD,
